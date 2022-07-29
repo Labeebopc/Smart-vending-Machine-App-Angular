@@ -1,1 +1,18 @@
-<h1>Hey welcome to Login page</h1>
+
+<!-- Designing a Login form -->
+<form class='loginform'>
+    <div class="form-content">
+        <div class="form-row">
+            <div class="form-group col-md-12">
+                <label>Email</label>
+                <input name='email' type="email" class="form-control" placeholder="Email" required />
+            </div>
+            <div class="form-group col-md-12">
+                <label>Password</label>
+                <input name='password' type="password" class="form-control" placeholder="Password" required />
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary mt-4 loginbtn1">Login</button>
+    <button routerLink="/register" type="submit" class="btn btn-primary loginbtn2">Register</button>
+</form>
