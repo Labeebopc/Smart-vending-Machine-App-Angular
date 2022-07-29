@@ -12,3 +12,5 @@ This project will serve as an interface to Orders & buy Products from a vending 
 4. Created a header component in frotend folder and designed using Bootstrap
 
 5. Created Login, Cart, Guest components & created routes for these
+
+6. Designed a Login page, Login form & Registration form with routes
